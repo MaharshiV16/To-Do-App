@@ -1,0 +1,38 @@
+.listItem {
+	width: 100%;
+	margin: 10px 0;
+	border-radius: 10px;
+	box-shadow: rgba(0, 0, 0, 0.08) 0 0 0 1px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.buttonContainer {
+	margin: 20px 10px;
+	gap: 10px;
+}
+
+.cbtn {
+	min-width: 70px;
+	outline: 1px solid;
+}
+
+.create {
+	border: 1.5px solid rgb(108, 115, 148);
+	color: rgb(108, 115, 148);
+	text-transform: uppercase;
+}
+
+.create:hover {
+	background-color: rgb(131, 138, 172);
+}
+
+.create:active {
+	background-color: rgb(108, 115, 148);
+	color: #fff;
+}
+
+.taskTitle {
+	margin-right: 25px ;
+	width: 350px;
+}
